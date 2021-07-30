@@ -1,3 +1,4 @@
+import 'package:chatapp/Pages/Camerapage.dart';
 import 'package:chatapp/Pages/ChatPage.dart';
 import 'package:flutter/material.dart';
 
@@ -63,7 +64,7 @@ class _HomescreenState extends State<Homescreen> with SingleTickerProviderStateM
       body: TabBarView(
         controller: _tabController,
         children: [
-          Text("Camera"),
+          CameraPage(),
         ChatPage(),
         Text("Status"),
         Text("Calls"),

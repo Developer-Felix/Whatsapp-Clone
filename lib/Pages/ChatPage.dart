@@ -45,7 +45,7 @@ class _ChatPageState extends State<ChatPage>{
       currentMessage: "Hae EveryOne",
       icon: Icon(Icons.person) ,
       time: "4:30pm"
-    )
+    ),
   ];
 
   @override 
